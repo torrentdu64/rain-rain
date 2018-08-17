@@ -16,6 +16,8 @@ class SearchBar extends Component {
     event.preventDefault();
   }
 
+
+
   render(){
     return (
       <form  onSubmit={this.onFormSubmit} className="input-group">
